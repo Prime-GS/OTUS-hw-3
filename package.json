@@ -1,0 +1,16 @@
+{
+  "name": "getpath-project",
+  "version": "1.0.0",
+  "description": "A project to find unique CSS selectors for HTML elements.",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
